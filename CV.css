@@ -1,0 +1,54 @@
+body {
+    border-top: 8px solid #005889;
+    padding: 0 50px;
+}
+
+.blue-color {
+    color: #005889;
+}
+
+.personal-data {
+    display: flex;
+    margin-top: -25px;
+    margin-left: 20px;
+}
+
+.cv-photo {
+    width: 100px;
+    padding: 15px;
+}
+
+.objective {
+    margin-left: 20px;
+}
+
+.cv-items {
+    margin-left: 35px;
+    margin-top: -8px;
+}
+
+.cv-items > job {
+    color: #005889;
+    font-weight: bold;
+}
+
+.skills {
+    display: flex;
+}
+
+ .skills-list {
+    list-style-type: none;
+ }
+
+ /* .skills-item {
+    font-size: 20px;
+    padding-bottom: 5px;
+
+ } */
+
+ .skills-item > tech {
+    font-size: 15px;
+    display: block;
+ }
+
+ /* flexboxfroggy.com */
